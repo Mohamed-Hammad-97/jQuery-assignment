@@ -1,0 +1,87 @@
+header {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .layer {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+header  .openNav {
+    cursor: pointer;
+}
+#leftMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.closebtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2rem;
+}
+#leftMenu a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+#leftMenu a:hover {
+    color: rgba(214, 46, 51, 0.4);
+    transition: all 0.5s;
+}
+
+.accordion-item .accordion-button {
+        background-color: rgba(214, 46, 51, 0.4);
+}
+.accordion-body {
+    background-color: RGB(204, 204, 204);
+}
+
+#details {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#details .layerCount {
+    background-color: rgba(214, 46, 51, 0.6);
+    
+}
+.icons-1 {
+    width: 10rem;
+    height: 5rem;
+    border: 2px solid white;
+    color: white;
+}
+
+footer .icons {
+    border: 1px solid #777777;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+}
+
+footer .icons i {
+    color: #777777;
+    font-size: 1.5rem;
+}
+
+footer .icons:hover {
+    background-color: #D62E33;
+    transition: all 0.7s;
+}
+
+footer .icons i:hover {
+    color: white;
+}
+footer textarea {
+    resize: vertical;
+}
